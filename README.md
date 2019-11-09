@@ -9,7 +9,7 @@ There were three datasets namely:
 These datasets were joined using customer_id as the index
 
 
-Upon the exploratory analysis we found determined the below features to be of importance:
+Upon the exploratory analysis I found below features to be of importance:
 tenure, Contract(Month-to-month),Contract(Month-to-month), InternetService(FiberOptics), PaymentMethod(ElectronicCheck), OnlineSecurity(No), TotalCharges to be the most influencing features that determine if a Customer Churns or not.
 
 After exploratory analysis, I tried to  clean the data. A few entries in features were substituted  to replace "No Internet Service" with "No".
