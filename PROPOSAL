@@ -1,0 +1,30 @@
+# Telecom Customer Churn
+
+
+## Summary
+We will be working on an IBM sample dataset for a Telecom firm to develop a predicition model which predicts if a customer will churn or not. This model can be used to develop focused customer retention programs. We will be analysing factors like services availed by each customer, customer account information, expenses(recharge amounts) and the demographic info about cutomers like gender, age etc.
+What we intend to achieve is outlined in the below section.
+
+## Goals
+Our goal is to train an efficient prediction model to predict if a customer churns or not. The dependent variable in our model is 'Churn' i.e. if a customer will churn or not. We will also be examining any relationships between dataset and the dependent variables.
+
+We have three datasets namely:  
++ churn_data.csv - gives basic data about the customers from the last month and if they churned or not  
++ customer_data.csv - cutmore demographics like id, gender etc.  
++ internet_data.csv - the services availed by the customer.  
+
+We will be performing the following tasks:
++ Consolidating datasets and cleaning data where required
++ Analyse the data and find relationships between the features and the dependent variable using various functionalities(but not limitied to) like scatter plots, heat maps, histograms, frequency analysis.
++ Build a logistic regression model
++ Evaluate the model accuracy using RMS, confusion matrix
++ Feature Selection using RFE(Recursive Feature Elimination)   
+
+## Project Milestones
+Milestone #1 - Establish Base - Week 8
++ Create clean and compiled dataset for the model
++ Analyse data and gather meaningful relationships/trends
+
+Milestone #2 - Prediction Model - Week 10
++ Create and efficeint prediction Model
++ Evaluate model and perfrom RFE on the data
